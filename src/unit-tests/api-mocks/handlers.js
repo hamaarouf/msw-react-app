@@ -12,8 +12,6 @@ const client =
   }
 ]
 
-
-
 export const clientHandler = rest.get("http://localhost:8080/api/informationsClient", async (req, res, ctx) => {
   console.log("res = ", res);
   return res(
