@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-     <Client {...{clientData: myClient}} />
+     <Client />
     </div>
   );
 }
